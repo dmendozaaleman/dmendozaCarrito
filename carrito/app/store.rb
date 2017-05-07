@@ -1,8 +1,6 @@
 require 'builder'
 require 'active_record'
 
-
-
 class StoreApp
   def call(env)
     x = Builder::XmlMarkup.new :indent=>2
